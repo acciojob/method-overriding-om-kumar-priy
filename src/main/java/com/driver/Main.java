@@ -18,6 +18,9 @@ public class Main {
   {
     B om=new B();
     om.meth();
+    //call this overridden method from obj of class B
+    B b=new B();
+    b.meth();
   }
 
 }
